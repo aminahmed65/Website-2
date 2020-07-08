@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#header{
+    background-color: #250A34;
+}
+.h1{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.hero-text{
+    font-family: 'Lato Bold', sans-serif; color: #F8F2E9; font-size: 90px; font-weight:700; margin-top: 250px;
+}
+.img-thumbnail {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    background-size: cover;
+}
+.services-boxes{
+    -webkit-box-shadow: 3px 3px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 7px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 7px -2px rgba(0,0,0,0.75);
+    
+}
+.universal-button{
+    background-color: #FAAB21;
+    color: #292663;
+}
+#learn-more-button{
+    width: 350px;
+    height: 60px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.team-text{
+    font-family: 'Lato', sans-serif; 
+    color: #292663; 
+    font-size: 25px; 
+    font-weight: 600;
+    margin-top: 10px;
+}
+#home-subscribe-image{
+    background-image: url("images/Home-Subscribe.jpg");
+    width: 826px;
+    height: 924px;
+    max-width: 100%;
+    border: 0px;
+
+}
+.subscribe-textbox{
+    font-family: 'Lato';
+    font-size: 20px;
+    width: 550px;
+    height: 70px;
+    margin-top: 25px;
+    border: 0;
+}
+#subscribe-button{
+    background-color: #FAAB21;
+    color: #292663;
+    width: 450px;
+    height: 60px;
+    border: 0;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.purple-bg{
+    background-image: url("images/About-Hero.jpg");
+    background-size: cover;
+    position: relative;
+}
+.main-header{
+    background-image: url("images/Home-Hero.jpg");
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 200px;
+    position: relative;
+
+}
+.color-overlay-purple{
+    background-color: #250A34;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.color-overlay-header{
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.color-overlay-mid-hero{
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.three-cards{
+    margin-top: 20px; 
+    margin-left: 80px; 
+    margin-bottom: 40px;
+}
+.white-cards{
+    width: 325px; height: 400px; background-color: white; margin-top: 10px; padding-top: 25px;
+}
+.subscribe-box{
+    margin: 70px; background-color: #F2F0F4;
+}
+.about-text{
+    font-family: 'Lato', sans-serif; color: #292663; font-size: 25px; font-weight: 500;
+}
+.about-text-container{
+    padding: 70px;
+}
+.about-title{
+    font-family: 'Lato Bold', sans-serif; color: #250A34; font-size: 50px; font-weight: 600;
+}
+.team-sub-text{
+    font-family: 'Lato', sans-serif; color: #250A34; font-size: 25px;
+}
+.main-header-teampage{
+    background-image: url("images/About-Hero.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 200px;
+    position: relative;
+
+}
+.header-text-teampage{
+    font-family: 'Lato Bold', sans-serif; color: #F8F2E9; font-size: 50px; font-weight:700; margin-top: 150px; margin-left: 30px;
+}
+
+
+
+
+
+
+@media (max-width: 970px) {
+    .three-cards{
+        margin-top: 20px; 
+        margin-left: -10px; 
+        margin-bottom: 40px;
+    }
+    .subscribe-textbox{
+        font-family: 'Lato';
+        font-size: 20px;
+        width: 325px;
+        height: 70px;
+        margin-top: 25px;
+        border: 0;
+    }
+    #subscribe-button{
+        background-color: #FAAB21;
+        color: #292663;
+        width: 325px;
+        height: 60px;
+        border: 0;
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .subscribe-box{
+        margin: 40px;
+    }
+    .hero-text{
+        font-size: 50px;
+    }
+    .about-text{
+        font-size: 20px;
+    }
+    .about-text-container{
+        padding: 30px;
+    }
+    .about-title{
+        font-size: 30px;
+    }
+    #learn-more-button{
+        border-radius: 0;
+        width: 300px;
+        font-size: 15px;
+    }
+    .team-sub-text{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+}
